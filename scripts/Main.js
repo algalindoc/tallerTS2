@@ -3,7 +3,7 @@ var seriesTable = document.getElementById("series");
 var promedioTemporadasElement = document.getElementById("promedioTemporadas");
 var serieDetails = document.getElementById("serieDetails");
 mostrarTablaSeries(series);
-promedioTemporadasElement.innerHTML = "Promedio de temporadas: ".concat(promedioTemporadas(series));
+promedioTemporadasElement.innerHTML = "Season average: ".concat(promedioTemporadas(series));
 function mostrarTablaSeries(series) {
     var seriesTbody = document.createElement("tbody");
     var _loop_1 = function (serie) {
