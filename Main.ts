@@ -6,7 +6,7 @@ let promedioTemporadasElement: HTMLElement = document.getElementById("promedioTe
 let serieDetails: HTMLElement = document.getElementById("serieDetails")!;
 
 mostrarTablaSeries(series);
-promedioTemporadasElement.innerHTML = `Promedio de temporadas: ${promedioTemporadas(series)}`;
+promedioTemporadasElement.innerHTML = `Season Average: ${promedioTemporadas(series)}`;
 
 function mostrarTablaSeries(series: Serie[]): void{
     let seriesTbody: HTMLElement = document.createElement("tbody");
